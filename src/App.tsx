@@ -1,7 +1,10 @@
+import { Heading } from "./Component/Heading";
 
 
 export default function App (){
   return (
-    <div></div>
+    <div>
+      <Heading>Home</Heading>
+    </div>
   )
 }
