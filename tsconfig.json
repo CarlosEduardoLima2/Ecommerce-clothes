@@ -22,9 +22,9 @@
   },
   "include": [
     "src"
-, "types"  ],
+, "types", "styled-components.d.ts"  ],
   "files": [
-    "types/styled-components.d.ts",
+    "styled-components.d.ts",
     "types/jest-styled-components.d.ts"
   ]
 }
