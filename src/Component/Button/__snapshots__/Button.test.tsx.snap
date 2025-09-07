@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render 1`] = `
+.c0 {
+  padding: 10px 60px;
+  border-radius: 8px;
+  color: #f8f8f8;
+  background-color: #212121;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: .3s ease-in;
+  transition: .3s ease-in;
+}
+
+.c0:hover {
+  border: none;
+  background: #363636;
+}
+
+<div>
+  <a
+    aria-current="page"
+    class="c0 active"
+    href="/"
+  >
+    children
+  </a>
+</div>
+`;
