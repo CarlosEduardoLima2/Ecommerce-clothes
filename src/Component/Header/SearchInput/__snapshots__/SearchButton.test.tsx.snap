@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> should match snapshot 1`] = `
+.c1 {
+  max-width: 85.375rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.c0 {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 3px solid #000;
+}
+
+.c2 {
+  width: 100%;
+  background-color: #f8f8f8;
+  border: none;
+  font-size: 1.625rem;
+  padding: 15px 30px;
+  color: #212121;
+  font-weight: 700;
+}
+
+.c2:focus {
+  outline: 0;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <form>
+        <input
+          class="c2"
+          placeholder="Search"
+        />
+      </form>
+    </div>
+  </div>
+</div>
+`;
