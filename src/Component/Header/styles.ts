@@ -21,6 +21,7 @@ export const Nav = styled.div`
   display: flex;
   grid-column-gap: 1.2rem;
   align-items: center;
+  flex: 1;
 `;
 
 export const Logo = styled.div`
@@ -29,4 +30,10 @@ export const Logo = styled.div`
 
 export const Actions = styled.div`
 
+`;
+export const NavInput = styled.div`
+  flex: 1;
+  input {
+    width: 100%;
+  }
 `;

@@ -16,12 +16,12 @@ export const Header = () => {
   return (
     <Styled.Container>
       <SectionContainer>
-        {inputSearch && <SearchInput />}
         <Styled.Header>
           <Styled.Logo>
             <NavLinkComponent to='/' size='big'>E-commerce</NavLinkComponent>
           </Styled.Logo>
           <Styled.Nav>
+            <Styled.NavInput>{inputSearch && <SearchInput />}</Styled.NavInput>
             <SearchButton handleClick={handleClick}/>
             <NavLinkComponent to="/shop" size='small'>shop</NavLinkComponent>
             <NavLinkComponent to="/about" size='small'>about</NavLinkComponent>
