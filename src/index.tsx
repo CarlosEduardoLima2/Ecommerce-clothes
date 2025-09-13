@@ -6,7 +6,7 @@ import App from './App';
 import { ProductProvider } from './store/context/ProductProvider';
 import { theme } from './styles/theme';
 import { Header } from './Component/Header';
-// import { Footer } from './components/Footer';
+import { Footer } from './Component/Footer';
 import { GlobalStyles } from './styles/global-styles';
 
 const root = ReactDOM.createRoot(
@@ -20,7 +20,7 @@ root.render(
       <BrowserRouter>
       <Header />
         <App />
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </ProductProvider>
   </ThemeProvider>
