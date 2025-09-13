@@ -16,7 +16,7 @@ export const Input = styled.input`
     color: ${theme.colors.darkColor};
     font-weight: 700;
     border-radius: 4px;
-
+    border: 1px solid #000;
     &:focus {
       outline: 0;
     }
