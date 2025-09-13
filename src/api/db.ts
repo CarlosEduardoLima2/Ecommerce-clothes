@@ -163,6 +163,22 @@ export const data = [
     "image": "./assets/pexels-joshua-mcknight-1544725-removebg-preview.png"
   },
   {
+    "id": 10,
+    "title": "Vestido rosa",
+    "description": "100% algodão, tamanho unissex. Impresso com tinta puff em uma camiseta Comfort Colors.",
+    "price": 110,
+    "category": "vestido",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "image": "./assets/pexels-kadeem-stewart-15787280-removebg-preview.png"
+  },
+  {
     "id": 11,
     "title": "Camiseta Pixel",
     "description": "100% algodão, tamanho unissex. Impresso com tinta puff em uma camiseta Comfort Colors.",
@@ -195,22 +211,6 @@ export const data = [
       "2XL"
     ],
     "image": "./assets/pexels-lucas-pezeta-1963239-removebg-preview.png"
-  },
-  {
-    "id": 13,
-    "title": "Vestido rosa",
-    "description": "100% algodão, tamanho unissex. Impresso com tinta puff em uma camiseta Comfort Colors.",
-    "price": 130.99,
-    "category": "vestido",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
-    ],
-    "image": "./assets/pexels-moose-photos-1036623-removebg-preview.png"
   },
   {
     "id": 14,
